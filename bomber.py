@@ -20,21 +20,21 @@ print("")
 print("")
 try:
 	global necha
-	print("Necha marotaba yuborish kerak!")
+	print("How many times to send!")
 	necha = int(input(Fore.BLUE + "--> "))
 except:
 	necha = 10
-	print(Style.RESET_ALL + "Siz faqat son kiritishingiz mumkin!")
-	print(Style.RESET_ALL + "defoult qiymat 10-ga teng!")
+	print(Style.RESET_ALL + "You can only enter a number!")
+	print(Style.RESET_ALL + "Default value is 10!")
 
 
 time.sleep(1)
 print("")
-print(Style.RESET_ALL + "Nima yuborish kerak!")
+print(Style.RESET_ALL + "What to send!")
 words = input(Fore.BLUE + "--> ")
 
 
-print(Fore.YELLOW + "15-secund vaqt!")
+print(Fore.YELLOW + "15-second time!")
 time.sleep(1)
 
 def countdown(t):
